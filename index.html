@@ -5,20 +5,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,600&display=swap" rel="stylesheet">
-
+<script src="https://kit.fontawesome.com/f08bf78ddf.js" crossorigin="anonymous"></script>
 <title>Sai Sreedhar | Developer</title>
+<meta charset="UTF-8"/>
 </head>
 <body>
     <section class="hero">
-        <nav>
-            <img class="logo" src="src/images/logo.png" alt="ss logo"/>
-            <ul>
-                <li><a class="a1" href="#about-me">About Me</a> </li>
-                <li><a class="a1" href="#project">Projects</a> </li>
-                <li><a class="a1" href="#contact">Contact Me</a> </li>
-
-            </ul>
-        </nav>
+        <div class="navigation">
+            <nav>
+                <div class="logo" ></div>
+                <ul id="nav-list">
+                    <li><a class="a1" href="#about-me">About Me</a> </li>
+                    <li><a class="a1" href="#project">Projects</a> </li>
+                    <li><a class="a1" href="#contact">Contact Me</a> </li>
+    
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+       
         <div class="text-Area">
          
             <div class="hero-text">
@@ -26,7 +33,7 @@
                 <p>
                     I'm the developer you need
                 </p>
-                <div class="button"><a class="hovbtn" href="#about-me">Know More</a></div>
+                <div class="button button1"><a href="#about-me">Know More</a></div>
             </div>
             <div class="socials">
                 <div>
@@ -52,7 +59,7 @@
             <p class="section2">Software Engineer specializing in Web Development</p>
             <p class="section2">Driven developer dedicated to building responsive web applications</p>
             <p class="section2">Committed to full-stack web development</p>
-            <div class="button"><a class="hovbtn" href="https://drive.google.com/file/d/1zGPrX1_tj62Uv6w_eTKVsPrTX3vSKZb5/view?usp=sharing">Resume</a></div>
+            <div class="button button1"><a  href="https://drive.google.com/file/d/1zGPrX1_tj62Uv6w_eTKVsPrTX3vSKZb5/view?usp=sharing">Resume</a></div>
         </div>
         <div class="HeadShot">
             <img class="headshot" src="src/images/my photo.png" alt="my photo"/>
@@ -61,12 +68,55 @@
     <section class="sub-section-alternative" id="project">
         <h2> Projects  </h2>
         <div class="project-container">
-            <div class="project-card"></div>
-            <div class="project-card"></div>
-            <div class="project-card"></div>
-            <div class="project-card"></div>
+            <div class="project-card">
+                <img class="project-img" src="src/images/marshal.jpg" alt="project1image"/>
+                <h3>
+                    project Marshal
+                </h3>
+                <hr/>
+                <p class="subtext">
+                    Ai powered application to evaluate comments of youtube.
+                </p>
+                
+                
+            </div>
+            <div class="project-card">
+                <img class="project-img" src="src/images/hackcovid19.jpg" alt="project1image"/>
+                <h3>
+                    HackCovid19
+                </h3>
+                <hr/>
+                <p class="subtext">
+                    This application is designed for the hospital and patients to post bed availability and
+                    Requesting help for Beds,oxygen,vaccine,Blood.
+                </p>
+                
+            </div>
+            <div class="project-card">
+                <img class="project-img" src="src/images/sreeagriculture.jpg" alt="project1image"/>
+                <h3>
+                    Sree Agriculture
+                </h3>
+                <hr/>
+                <p class="subtext">
+                  An e-commerce application for the farmes which aid in seeling the yeild directly to the consumers by passing middle man
+
+                </p>
+               
+            </div>
+            <div class="project-card">
+                <img class="project-img" src="src/images/engjoy.jpg" alt="project1image"/>
+                <h3>
+                    EngJoy
+                </h3>
+                <hr/>
+                <p class="subtext">
+                   Blog which is made for Computer Science students to learn with joy.
+                </p>
+                
+            </div>
         </div>
-        <div class="button2"><a class="hovbtn" href="">Load More</a></div>
+        <div class="button button1"><a href="">Load More</a></div>
         
 
     </section>
@@ -89,7 +139,7 @@
         </div>
         
         </div>
-        <p class="copyright"> ©2021<span class="text-color-main" style="color: #FDA403;"> C.NagaSaiSreedhar</span> </p>
+        <p class="copyright">©2021<span class="text-color-main" style="color: #FDA403;"> C.NagaSaiSreedhar</span> </p>
        
     </footer>
 <script src="src/app.js"></script>
