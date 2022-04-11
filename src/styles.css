@@ -226,38 +226,95 @@ margin-bottom: 200px;
      font-weight: 300;
   }
   @media screen and (max-width:1000px){
-      .project-container{
-          display: flex;
-          flex-wrap: wrap;
-          
-          
-      }
-      h1{
-        font-size: 150px;
-        margin: 0;
-    }
-      .project-card{
-        width: 300px;
+    .headshot{
+        width: 350px;
         height: 350px;
-        margin: 25px;
-        padding: 20px;
-      box-shadow: 5px 5px 20px rgb(197,195,195);
+        padding-right: 60px;
     }
-    .text-Area{
-        display: flex;
-        align-items: center;
-        height: 100%;
+    .button1{
+      
         
-        justify-content: space-between;
-    }
-    .hero{
-        background-color: white;
-        height: 100vh;
+        
+        padding: 15px 32px;
+        text-align: center;
+        
        
-       
-        color: #1c1d25;
-        font-size: 60px;
+        font-size: 50px;
     }
+    
+          .project-container{
+              display: flex;
+              flex-wrap: wrap;
+              
+              
+          }
+          .section2{
+            font-weight: 400;
+             font-size: 40px;
+             
+           
+         }
+         h2{
+             font-size: 100px;
+         }
+          h1{
+            font-size: 150px;
+            margin: 0;
+        }
+        h3{
+            font-size: 30px;
+        }
+        .subtext{
+            font-size: 25px;
+           text-align:center;
+        }
+          .project-card{
+            width: 320px;
+            height: 550px;
+            margin: 10px;
+            padding: 25px;
+          box-shadow: 5px 5px 20px rgb(197,195,195);
+        }
+        .text-Area{
+            display: flex;
+            align-items: center;
+            height: 100%;
+            
+            justify-content: space-between;
+        }
+        .sub-section{
+            display: flex;
+            justify-content: space-between;
+           padding-top: 400px;
+            padding-left: 80px;
+           
+            padding-bottom: 100px;
+          }
+        .hero{
+            background-color: white;
+            height: 80vh;
+           
+           
+            color: #1c1d25;
+            font-size: 60px;
+        }
+        
+      .project-img{
+          width: 150px;
+          margin-top: 20px;
+          border-radius: 125px;
+    
+      }hr{
+          margin-left: 20px;
+          margin-right: 20px;
+         
+      }.hamburger{
+       display: none;
+       
+      }.hamburger:focus{
+          outline: 0;
+      }
+    
   }
   .project-img{
       width: 100px;
